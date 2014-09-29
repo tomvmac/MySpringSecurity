@@ -14,6 +14,7 @@
 		<authentication-provider>
 			<user-service>
                 <user name="tom" password="mac" authorities="ROLE_USER" />
+				<user name="admin" password="admin" authorities="ROLE_USER" />
             </user-service>
 		</authentication-provider>
 	</authentication-manager>
